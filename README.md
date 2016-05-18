@@ -45,9 +45,10 @@ if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
 
 方法一：纯JS判断
 使用这方法既简单，又实用，不需要引入jQuery库，把以下代码加入到<head>里即可。
-<script type=”text/javascript”>
+
+<script type="text/javascript">
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-window.location = “mobile.html”; //可以换成http地址
+window.location = "mobile.html"; //可以换成http地址
 }
 </script>
 
